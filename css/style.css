@@ -1,0 +1,71 @@
+header {
+    text-align: center;
+}
+*{
+    margin: 20px ;
+    padding: 10px ;
+}
+body{
+    background:url(../images/img_fondo2.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    color:white;
+    font-size:20px;
+font-family:sans-serif;
+}
+    
+section{
+    border:1px solid #fff;
+    border-radius: 20px;
+    background-color:rgba(165, 165, 165, 0.2)
+}
+.titulos{
+ color: rgb(95, 159, 193);
+padding-left: 25px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+nav{
+    
+    text-align: center;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    border-radius: 13px;
+  
+}
+nav a:hover{
+    background-color:rgb(140, 181, 203);
+}
+#link1{
+    color: rgb(147, 103, 190);
+    justify-content: center;
+  
+}
+.imagen-float{
+  width: 25%;
+}
+.texto-float{
+    float: left;
+    width: 700px;
+    padding: 100 0  0 100;
+}
+.clear{
+    clear: both;
+}
+aside{
+float:right;
+color: rgb(94, 149, 215);
+margin-left: 30%;
+margin-top: 0px;
+text-decoration: underline;
+}
+.txtf2{
+    float: right;
+    width: 900px;
+    padding: 100 0 0px 100;
+}
